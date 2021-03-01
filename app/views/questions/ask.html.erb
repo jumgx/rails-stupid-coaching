@@ -1,0 +1,8 @@
+
+<h2>Question</h2>
+<form action="/answer" method="get">
+  <input type="text" name="ask" value="<%= params[:ask] %>" placeholder="What's your question?">
+  <input type="submit" value="Ask!">
+</form>
+
+<%= link_to "get the answer", answer_path %>
